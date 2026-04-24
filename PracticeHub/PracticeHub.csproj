@@ -11,10 +11,8 @@
   <ItemGroup>
     <Folder Include="Forms\Auth\" />
     <Folder Include="Forms\Student\" />
-    <Folder Include="Forms\Company\" />
     <Folder Include="Forms\Teacher\" />
     <Folder Include="Forms\Admin\" />
-    <Folder Include="Models\" />
     <Folder Include="Logger\" />
     <Folder Include="Logic\" />
   </ItemGroup>
