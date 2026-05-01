@@ -1,4 +1,4 @@
-﻿namespace PracticeHub
+namespace PracticeHub
 {
     partial class Form1
     {

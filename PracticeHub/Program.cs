@@ -1,3 +1,6 @@
+using PracticeHub.Forms.Auth;
+using PracticeHub.Helpers;
+
 namespace PracticeHub
 {
     internal static class Program
@@ -11,7 +14,9 @@ namespace PracticeHub
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            var loginForm = new LoginForm();
+            WindowStateStore.Apply(loginForm);
+            Application.Run(loginForm);
         }
     }
 }
